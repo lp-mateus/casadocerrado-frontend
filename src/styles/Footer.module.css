@@ -1,0 +1,40 @@
+/* UTIL */
+.margingleft16 {
+	margin-left: 1rem;
+}
+.margintop8 {
+	margin-top: 0.5rem;
+}
+.margintop16 {
+	margin-top: 1rem;
+}
+.textaligncenter {
+	text-align: center;
+}
+/* STYLES */
+.footercontainer {
+	padding: 2.5rem 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #c29e84;
+}
+
+.footersectiontitle {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #c75a1a;
+}
+
+.footersectiontext {
+	font-size: 1rem;
+	font-weight: lighter;
+	color: #000;
+}
+
+.footersectionredesocial {
+    margin-top: 0.5rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}

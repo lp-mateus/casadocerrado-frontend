@@ -2,6 +2,7 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 // Images and Icons paths
 import imageHomeCerradoPath from "../../public/images/Imagehomecerrado.png";
 import logoFundacaoBBPath from "../../public/icons/Iconfundacaobb.png";
@@ -225,6 +226,8 @@ export default function Home() {
 			</section>
 
 			<section className={`${styles.margintop64}`}></section>
+
+			<Footer />
 		</>
 	);
 }

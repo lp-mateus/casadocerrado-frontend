@@ -75,7 +75,7 @@
 .homesectioncontainer {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .homesectiontitle {
@@ -92,10 +92,10 @@
 }
 
 .homeimagecasacerrado {
-	margin-left: 4rem;
+	margin-left: 5rem;
 	max-width: 512px;
 	max-height: 512px;
-	border-radius: 15%;
+	border-radius: 10%;
 }
 
 .homelogoparceiros {
@@ -137,13 +137,13 @@
 .homebannerhistoriatext {
 	font-size: 2.5rem;
 	font-weight: 700;
-	color: #E36B26;
+	color: #e36b26;
 	text-align: center;
 }
 
 .homebannerhistoriasubtitle {
 	font-size: 1.25rem;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-align: center;
 }
