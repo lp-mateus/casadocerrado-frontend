@@ -1,20 +1,28 @@
 import Link from "next/link";
-import Image from "next/image";
+import Logo from "./Logo";
+import ButtonPrimary from "./ButtonPrimary";
 import styles from "@/styles/Header.module.css";
-import logoCasaCerrado from "../../public/icons/Logocasacerrado.png";
 
 export default function Header() {
 	return (
 		<header className={styles.headercontainer}>
+			<Logo />
+
+			{/*
 			<div className={styles.logocontainer}>
 				<div>
-					<Image src={logoCasaCerrado} alt="Logo da Fundação Casa do Cerrado" />
+					<Image
+						className={styles.borderradius50}
+						src={logoCasaCerrado}
+						alt="Logo da Fundação Casa do Cerrado"
+					/>
 				</div>
 				<div className={styles.marginleftdefault}>
 					<p className={styles.headertitlemain}>Fundação</p>
 					<p className={styles.headertitlesecondary}>Casa do Cerrado</p>
 				</div>
 			</div>
+			*/}
 
 			<nav>
 				<ul className={styles.navcontainer}>
@@ -28,7 +36,9 @@ export default function Header() {
 						<Link href="/">Projetos</Link>
 					</li>
 					<li className={styles.navitem}>
-						<Link href="/">Contato</Link>
+						<Link href="/">
+							<ButtonPrimary label="Contato" />
+						</Link>
 					</li>
 				</ul>
 			</nav>

@@ -1,0 +1,24 @@
+.borderradius50 {
+	border-radius: 50%;
+}
+.marginleft8 {
+    margin-left: 0.5rem;
+}
+
+.logocontainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.headertitlemain {
+	font-size: 2rem;
+	color: #000;
+	font-weight: lighter;
+}
+
+.headertitlesecondary {
+	font-size: 1.5rem;
+	color: #000;
+	font-weight: normal;
+}

@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ButtonPrimary from "@/components/ButtonPrimary";
 // Images and Icons paths
 import imageHomeCerradoPath from "../../public/images/Imagehomecerrado.png";
 import logoFundacaoBBPath from "../../public/icons/Iconfundacaobb.png";
@@ -28,6 +29,10 @@ export default function Home() {
 						sustentáveis que geram impacto positivo e valor para a sociedade e o
 						meio ambiente.
 					</p>
+				</div>
+
+				<div className={styles.margintop32}>
+					<ButtonPrimary label="Veja nossos projetos" />
 				</div>
 			</section>
 

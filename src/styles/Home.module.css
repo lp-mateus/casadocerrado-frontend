@@ -27,11 +27,11 @@
 /* STYLE */
 .homebannercontainer {
 	padding: 2.5rem 0rem 2.5rem 8rem;
-	background-image: url("../../public/images/imagehomebanner.png"); /* Replace with your image path */
+	background-image: url("../../public/images/Imagehomebannercerradonew.png"); /* Replace with your image path */
 	background-size: cover;
 	background-position: center;
 	background-blend-mode: overlay;
-	background-color: rgba(0, 0, 0, 0.45); /* Black overlay with 50% opacity */
+	background-color: rgba(0, 0, 0, 0.55); /* Black overlay with 50% opacity */
 	z-index: -1;
 }
 
@@ -57,6 +57,8 @@
 	font-size: 1.25rem;
 	font-weight: 500;
 	color: #c29e84;
+	text-align: justify;
+	max-width: 45rem;
 }
 
 .hometitlecontainer {
