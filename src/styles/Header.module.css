@@ -1,0 +1,49 @@
+/* UTIL */
+.marginleftdefault {
+	margin-left: 1rem;
+}
+
+/* STYLE */
+.headercontainer {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.headertitlemain {
+	font-size: 2rem;
+	color: #000;
+	font-weight: lighter;
+}
+
+.headertitlesecondary {
+	font-size: 1.5rem;
+	color: #000;
+	font-weight: normal;
+}
+
+.logocontainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navcontainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navitem {
+	margin-left: 3.5rem;
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #000;
+}
+
+.navitem:hover {
+	color: #f8640a;
+}
