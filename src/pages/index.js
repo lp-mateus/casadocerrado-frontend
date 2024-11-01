@@ -1,20 +1,11 @@
-import Head from "next/head";
+// Components
 import Image from "next/image";
-import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/Header";
+// Images and Icons paths
 import imageHomeCerradoPath from "../../public/images/Imagehomecerrado.png";
 import logoFundacaoBBPath from "../../public/icons/Iconfundacaobb.png";
-const geistSans = localFont({
-	src: "./fonts/GeistVF.woff",
-	variable: "--font-geist-sans",
-	weight: "100 900",
-});
-const geistMono = localFont({
-	src: "./fonts/GeistMonoVF.woff",
-	variable: "--font-geist-mono",
-	weight: "100 900",
-});
+import iconFarming from "../../public/icons/Iconfarming.png";
 
 export default function Home() {
 	return (
@@ -153,34 +144,87 @@ export default function Home() {
 				<div>
 					<p className={styles.homesectiontitle}>Nossos atividades</p>
 				</div>
-				<div className={`${styles.margintop32} ${styles.homesectioncontainer}`}>
-					<Image
-						src={logoFundacaoBBPath}
-						alt="Logo Fundação Banco do Brasil"
-						className={styles.homelogoparceiros}
-					/>
-					<Image
-						src={logoFundacaoBBPath}
-						alt="Logo Fundação Banco do Brasil"
-						className={styles.homelogoparceiros}
-					/>
-					<Image
-						src={logoFundacaoBBPath}
-						alt="Logo Fundação Banco do Brasil"
-						className={styles.homelogoparceiros}
-					/>
-					<Image
-						src={logoFundacaoBBPath}
-						alt="Logo Fundação Banco do Brasil"
-						className={styles.homelogoparceiros}
-					/>
-					<Image
-						src={logoFundacaoBBPath}
-						alt="Logo Fundação Banco do Brasil"
-						className={styles.homelogoparceiros}
-					/>
+
+				<div
+					className={`${styles.margintop32} ${styles.homesectioncontainer} `}
+				>
+					<div>
+						<div className={styles.homeatividadesimage}>
+							<Image src={iconFarming} alt="Icone de agricultura" />
+						</div>
+						<p className={styles.homeatividadestext}>
+							Recuperação de áreas degradadas
+						</p>
+					</div>
+
+					<div>
+						<div className={styles.homeatividadesimage}>
+							<Image src={iconFarming} alt="Icone de agricultura" />
+						</div>
+						<p className={styles.homeatividadestext}>
+							Replicação da tecnologia do ILP e ILPF para a agricultura familiar
+						</p>
+					</div>
+
+					<div>
+						<div className={styles.homeatividadesimage}>
+							<Image src={iconFarming} alt="Icone de agricultura" />
+						</div>
+						<p className={styles.homeatividadestext}>
+							Produção e distribuição de mudas
+						</p>
+					</div>
+				</div>
+
+				<div
+					className={`${styles.margintop64} ${styles.homesectioncontainer} `}
+				>
+					<div>
+						<div className={styles.homeatividadesimage}>
+							<Image src={iconFarming} alt="Icone de agricultura" />
+						</div>
+						<p className={styles.homeatividadestext}>
+							Recuperação de áreas degradadas
+						</p>
+					</div>
+
+					<div>
+						<div className={styles.homeatividadesimage}>
+							<Image src={iconFarming} alt="Icone de agricultura" />
+						</div>
+						<p className={styles.homeatividadestext}>
+							Replicação da tecnologia do ILP e ILPF para a agricultura familiar
+						</p>
+					</div>
+
+					<div>
+						<div className={styles.homeatividadesimage}>
+							<Image src={iconFarming} alt="Icone de agricultura" />
+						</div>
+						<p className={styles.homeatividadestext}>
+							Produção e distribuição de mudas
+						</p>
+					</div>
 				</div>
 			</section>
+
+			<section className={`${styles.margintop64} ${styles.homebannerhistoria}`}>
+				<div>
+					<p className={`${styles.homebannerhistoriatext}`}>
+						Momentos que marcaram a nossa história
+					</p>
+				</div>
+
+				<div>
+					<p
+						className={`${styles.margintop16} ${styles.homebannerhistoriasubtitle}`}
+					>
+						Momentos que marcaram a nossa história
+					</p>
+				</div>
+			</section>
+
+			<section className={`${styles.margintop64}`}></section>
 		</>
 	);
 }

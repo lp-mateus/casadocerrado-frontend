@@ -110,3 +110,40 @@
 	padding: 4rem;
 	background-color: #f9bf39;
 }
+
+.homeatividadesimage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.homeatividadestext {
+	font-size: 1rem;
+	color: #21272a;
+	text-align: center;
+	max-width: 16rem;
+}
+
+.homebannerhistoria {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #835c49;
+}
+
+.homebannerhistoriatext {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #E36B26;
+	text-align: center;
+}
+
+.homebannerhistoriasubtitle {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #FFFFFF;
+	text-align: center;
+}
