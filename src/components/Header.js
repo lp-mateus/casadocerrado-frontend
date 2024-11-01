@@ -1,18 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/Header.module.css";
+import logoCasaCerrado from "../../public/icons/Logocasacerrado.png";
 
 export default function Header() {
 	return (
 		<header className={styles.headercontainer}>
 			<div className={styles.logocontainer}>
 				<div>
-					<Image
-						src="vercel.svg"
-						alt="Logo da Fundação Casa do Cerrado"
-						width={50}
-						height={50}
-					/>
+					<Image src={logoCasaCerrado} alt="Logo da Fundação Casa do Cerrado" />
 				</div>
 				<div className={styles.marginleftdefault}>
 					<p className={styles.headertitlemain}>Fundação</p>
@@ -31,7 +27,7 @@ export default function Header() {
 					<li className={styles.navitem}>
 						<Link href="/">Projetos</Link>
 					</li>
-                    <li className={styles.navitem}>
+					<li className={styles.navitem}>
 						<Link href="/">Contato</Link>
 					</li>
 				</ul>
