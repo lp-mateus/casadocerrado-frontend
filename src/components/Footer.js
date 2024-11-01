@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Logo from "./Logo";
 import styles from "@/styles/Footer.module.css";
 import iconInstagramPath from "../../public/icons/Iconinstragram.png";
 
@@ -9,6 +10,9 @@ export default function Footer() {
 			<div>
 				<div>
 					<div>
+						<Logo />
+					</div>
+					<div className={styles.margintop16}>
 						<p className={styles.footersectiontitle}>E-mail</p>
 					</div>
 					<div>
